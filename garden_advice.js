@@ -12,7 +12,7 @@ let season = "summer";
 let plantType = "flower";
 
 // Variable that stores the final gardening advice
-let advice = "";
+let gardeningAdvice = ""; // stores the final gardening advice output
 
 /**
  * Returns gardening advice based on the season.
@@ -47,11 +47,11 @@ function getPlantTypeAdvice(plantType) {
 }
 
 // Combine advice from both season and plant type
-advice += getSeasonAdvice(season);
-advice += getPlantTypeAdvice(plantType);
+gardeningAdvice += getSeasonAdvice(season);
+gardeningAdvice += getPlantTypeAdvice(plantType);
 
 // Output the final advice
-console.log(advice);
+console.log(gardeningAdvice);
 
 // TODO: Future improvements
 // - Replace hardcoded values with user input
