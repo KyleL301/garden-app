@@ -20,6 +20,7 @@ let gardeningAdvice = ""; // stores the final gardening advice output
  * @param {string} season - The current season
  * @returns {string} Advice related to the season
  */
+// This function returns advice based on the current season
 function getSeasonAdvice(season) {
   if (season === "summer") {
     return "Water your plants regularly and provide some shade.\n";
@@ -36,6 +37,8 @@ function getSeasonAdvice(season) {
  * @param {string} plantType - The type of plant
  * @returns {string} Advice related to the plant type
  */
+
+// This function returns advice based on the type of plant
 function getPlantTypeAdvice(plantType) {
   if (plantType === "flower") {
     return "Use fertiliser to encourage blooms.";
