@@ -57,3 +57,4 @@ console.log(gardeningAdvice);
 // - Replace hardcoded values with user input
 // - Store advice in an object for easier expansion
 // - Suggest plants that thrive in a selected season
+// Improved variable naming for clarity
